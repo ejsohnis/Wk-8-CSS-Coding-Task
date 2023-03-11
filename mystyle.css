@@ -1,0 +1,166 @@
+/* the color of background of the document body is alliceblue */
+body {
+    background-color: aliceblue;
+}
+
+/* the print of the heading: My Website is blue, bold and underlined*/
+h1 {
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+/* this link class background color is aquamarine*/
+.blueBackground {
+    background-color: aquamarine;
+}
+
+/* the color of the heading: The Botanic Garden's Flowers" is blue, underlined and print size is 20px */
+h3 {
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* the print color of the link is brown, and the curser becomes a pointer */
+a {
+    color: brown;
+    cursor: pointer;
+
+}
+
+/* the color of the border of the picture is solid purpule and 10px thick border
+spacing on all sides of the picture is 10px */
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 10px solid rgb(128, 70, 244);
+}
+
+/* The color of text print that describe the image is brown */
+p {
+    color: brown;
+}
+
+.orderList {
+    color: blue;
+}
+
+/*the color of table heading is green, the table date is in blueviolet*/
+
+.table {
+    display: inline-table;
+    /*determine how the table box is poitioned.*/
+    color: blueviolet;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-radius: 2px;
+
+}
+
+/* the tableHead print is in green and bold, 20px,  */
+.tableHead {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: azure;
+    color: green;
+}
+
+.tableData {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+/* I select th-table head, td-table data, tr-table row, and table body 
+to have the print color green and the border in pink */
+th,
+td,
+tr,
+tbody {
+    border: rgb(255, 0, 183) solid;
+    /*the border around each word data will be pink*/
+}
+
+table {
+    border-collapse: collapse;
+    /*no seration between adjacent borders inside the table*/
+    border-spacing: 0px;
+    margin: 8px;
+    /*outside spacing around the table*/
+}
+
+/* The styling of membership form: fullName and lastName and phoneNumber which is the id
+the text print is black, border is solid black, and cells have separate borders and the distance bet. 
+adjacent borders set to 0px */
+
+p {
+    color: brown;
+    margin: 0px;
+    /* the paragraph text print which is "Botanic Garden Membership" is brown */
+}
+
+.fN,
+.lN,
+#id {
+    color: black;
+    border: black solid;
+    border-spacing: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 3px;
+
+}
+
+.lN {
+    margin-left: 1px;
+    /*no margin on the left*/
+}
+
+
+.Gold {
+    color: gold;
+    font-weight: bold;
+}
+
+
+.Silver {
+    color: silver;
+    font-weight: bold;
+
+}
+
+.Platinum {
+    color: gray;
+    font-weight: bold;
+}
+
+
+.ClickHere {
+    color: black;
+    font-weight: bold;
+
+}
+
+/* I used marging-top for spacing between "Click here!" button and "Submit" button */
+button#clickHere-Btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}

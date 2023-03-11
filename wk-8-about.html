@@ -1,0 +1,93 @@
+<html lang="en">
+<!--Creating website using only html about the botanic garden, includes 3 pages with links 
+    to navigate between all pages present on each page.
+    It include 2 different size headers, list, image, table and form on each page.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<!-- The body background color is aliceblue -->
+
+<body>
+    <h1>My Website</h1> <!--this is a bigger size print of the header with color blue-->
+    <!--here is a division between documents of index.html, about.html, and contact.html-->
+    <div id="nav" class="blueBackground">
+        <a href="wk-8-CSS-index.html">Home</a> <!--background color - aquamarine, and text print is brown-->
+        <a href="wk-8-about.html">About</a> <!--background color - aquamarine, and text print is rown-->
+        <a href="wk-8-contact.html">Contact</a> <!--background color aquamarine, and text print is - brown-->
+    </div>
+    <!--the title in smaller print-->
+    <h3>The Botanic Garden</h3> <!--print color is blue-->
+
+    <a href="https://google.com">take me to google!</a><br><!--we can see in google that 
+        the documents are divided, and we can link between all pages - text color is brown-->
+
+    <a href="wk-8-about.html">about-page-2</a><br> <!--text color is brown-->
+    <a href="wk-8-contact.html">contact-page-3</a><br> <!--text color is brown-->
+
+
+    <!--here is the image of the botanic garden with a purple color border-->
+
+    <img height="150px" src="https://www.nycfoodpolicy.org/wp-content/uploads/2020/02/shutterstock_1056713516.jpg">
+    <p>The view of Japanese Garden in Botanic Garden</p> <!--text color will be brown-->
+    <!--this is the order list-->
+    <!--this is the order list-->
+    <ol class="orderList">
+        <li>flowers</li> <!--text color will be blue-->
+        <li>lakes</li> <!--text color will be blue-->
+        <li> trees</li> <!--text color will be blue-->
+    </ol>
+    <table class="table"> <!--here are the table rows-->
+        <tr>
+            <!--here are the table heads-->
+            <th class="tableHead">Product</th> <!--text color will be green-->
+            <th class="tableHead">Quantity</th><!--text color will be green-->
+            <th class="tableHead">Price</th><!--text color will be green-->
+        </tr>
+        <tr> <!--here is the data in this table-->
+            <td class="tableData">flowers</td> <!--text color will be blueviolet-->
+            <td class="tableData">120</td><!--text color will be blueviolet-->
+            <td class="tableData">$ 240</td> <!--text color will be blueviolet-->
+        </tr>
+        <tr>
+            <td class="tableData">trees</td> <!--text color will be blueviolet-->
+            <td class="tableData">50</td><!--text color will be blueviolet-->
+            <td class="tableData">$ 150</td><!--text color will be blueviolet-->
+        </tr>
+    </table>
+    <!--here is the membership form for submission-->
+    <form>
+
+        <!-- the text print color will be brown-->
+        <p>Botanic Garden Membership:</p><br>
+
+        <input class="fN" type="text" name="firstName" placeHolder="First Name"> <!--text color will be black-->
+        <input class="lN" type="text" name="lastName" placeHolder="Last Name"><br><!--text color will be black-->
+        <input id="id" type="text" name="phone" placeHolder="Phone Number"><br><!--text color will be black-->
+
+        <!--Gold print color will be gold -->
+        <input type="radio" name="Member" value="Gold"><strong class="Gold">Gold</strong><br>
+        <!--Silver print color will be silver-->
+        <input type="radio" name="Member" value="Silver"><strong class="Silver">Silver</strong><br>
+        <!--Platinum print color will be platinum -->
+        <input type="radio" name="Member" value="Platinum"> <strong class="Platinum">Platinum</strong> <br>
+        <!--  -->
+        <button id="clickHere-Btn"><strong class="clickHere">Click here!</strong></button><br>
+        <!--text color will be black-->
+        <!--break means here to place "submit" button under "click here" button-->
+        <!-- the word Submit will be printed in black -->
+        <button><strong class="Submit">Submit</strong></button><br> <!--text color will be black-->
+
+
+    </form>
+
+
+
+</body>
+
+</html>
